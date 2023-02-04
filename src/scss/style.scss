@@ -1,0 +1,25 @@
+@import "fonts";
+
+body {
+	font-family: RobotoMedium;
+	background-color: aqua;
+	span {
+		color: #ff3c00;
+	}
+	//background: url("@img/169169-ty_zasluzhivaesh_vsyacheskogo_schastya-schaste-strah-voda-polety_na_vozdushnom_share-500x.jpg") 0 0 no-repeat;
+	
+}
+
+div {
+	color: blue;
+}
+@media (max-width: 768px) {
+	span {
+		font-size: 55px;
+	}
+}
+@media (max-width: 768px) {
+	body {
+		background-color: green;
+	}
+}
